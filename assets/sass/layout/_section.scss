@@ -1,0 +1,25 @@
+@use"../abstracts/mixin" as *;
+.about-us__img{
+    img{
+        width: 100%;
+    }
+    @include media-up(md){
+        display: none;
+    }
+}
+
+hr{
+    border: 0;
+    border-top: 3px solid #fff; /* Línea doble */
+    margin: 20px 0;
+}
+
+.card{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    @include media-up(md){
+        margin: 16px 5px;
+    }
+}
