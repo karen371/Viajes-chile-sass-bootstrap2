@@ -22,3 +22,14 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 });
+/*navbar se vea a medida que se baje*/
+document.addEventListener('scroll', function () {
+    const navbar = document.querySelector('.navbar');
+    if (window.scrollY > 100) { // Ajusta el valor según cuándo quieras que cambie la opacidad
+        navbar.classList.remove('navbar-transparent');
+        navbar.classList.add('navbar-solid');
+    } else {
+        navbar.classList.remove('navbar-solid');
+        navbar.classList.add('navbar-transparent');
+    }
+});

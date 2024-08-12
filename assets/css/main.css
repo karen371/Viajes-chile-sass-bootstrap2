@@ -11973,7 +11973,7 @@ textarea.form-control-lg {
 
 .navbar {
   padding: 0 100px;
-  background-color: rgba(0, 0, 0, 0); /* Ajusta el color y la transparencia aquí */
+  transition: background-color 0.3s ease;
 }
 .navbar img {
   width: 50px;
@@ -11982,6 +11982,14 @@ textarea.form-control-lg {
   .navbar {
     padding: 0 10px;
   }
+}
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0); /* Ajusta el color y la transparencia aquí */
+}
+
+.navbar-solid {
+  background-color: rgba(0, 0, 0, 0.9); /* Ajusta la opacidad según sea necesario */
 }
 
 header {
@@ -11995,6 +12003,7 @@ header {
   height: 500px;
 }
 
+/*para la imagen de la seccion quienes somos*/
 .about-us__img img {
   width: 100%;
 }
@@ -12004,12 +12013,14 @@ header {
   }
 }
 
+/*especificaciones de la linea decorativa*/
 hr {
   border: 0;
   border-top: 3px solid #fff; /* Línea doble */
   margin: 20px 0;
 }
 
+/*tamaño de imagenes y margenes de card*/
 .card img {
   width: 100%;
   height: 100%;
@@ -12020,7 +12031,7 @@ hr {
   }
 }
 
-/**Seccion testimono**/
+/**Seccion testimono solicitada**/
 .container__testimony {
   display: flex;
   flex-direction: column;
