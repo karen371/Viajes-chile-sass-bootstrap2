@@ -2,7 +2,7 @@
 
 Este proyecto corresponde a la prueba del módulo 3, en el cual se ha creado una landing page para la agencia Viajes Chile. La página está diseñada utilizando Bootstrap, junto con algunos estilos personalizados en CSS y JavaScript. Los estilos personalizados se encuentran en el directorio `assets/sass/`. Puedes ver la maqueta utilizada para el diseño en el siguiente enlace:
 
-[Maqueta de Diseño](./assets/img/maqueta.png)
+![Maqueta de Diseño](./assets/img/maqueta.png)
 
 ### Instalacion de boostras 
 
