@@ -90,7 +90,7 @@
             <div class="container mt-4">
                 <div class="about-us__title text-center ">
                     <h2 class="text-primary">Quienes somos</h2>
-                </div>
+                </div> 
                 <hr>
                 <div class="row">
                     <div class="col-md-6 about-us__img">
@@ -220,7 +220,164 @@
                 </div>
             </div>
         </section>
+        <section id="testimony">
+            <div class="container__testimony">
+                <div class="testimony__title">
+                    <h2>Testimonios</h2>
+                </div>
+                <hr>
+                <div class="card__container">
+                    <div class="card__testimony">
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit, 
+                            praesent mus luctus blandit non lectus pulvinar, dictumst himenaeos
+                            lacinia fermentum cum maecenas.
+                        </p>
+                        <figure class="card__figure">
+                            <img src="./assets/img/testimonio1.jpg" alt="Descripción de la imagen" class="card__img">
+                            <figcaption class="card__caption">Mariela</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card__testimony">
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit, 
+                            praesent mus luctus blandit non lectus pulvinar, dictumst himenaeos
+                            lacinia fermentum cum maecenas.
+                        </p>
+                        <figure class="card__figure">
+                            <img src="./assets/img/testimonio2.jpg" alt="Descripción de la imagen" class="card__img">
+                            <figcaption class="card__caption">Chistian</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card__testimony">
+                        <p class="card__description">
+                            Lorem ipsum dolor sit amet consectetur adipiscing elit, 
+                            praesent mus luctus blandit non lectus pulvinar, dictumst himenaeos
+                            lacinia fermentum cum maecenas.
+                        </p>
+                        <figure class="card__figure">
+                            <img src="./assets/img/testimonio3.jpg" alt="Descripción de la imagen" class="card__img">
+                            <figcaption class="card__caption">Fernanda</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div> 
+        </section>
     </main>
+    <footer id="contact">
+        <div class="container mt-4">
+            <div class="text-center mt-4">
+                <h2 class="text-primary">Contacto</h2>
+            </div>
+            <hr>
+            <div class="row mt-5">
+                <div class="col-md-6 col 12">
+                    <form id="myform" class="row g-3">
+                        <div class="col-md-6">
+                            <label for="nombre" class="form-label text-primary" data-bs-toggle="tooltip" title="Ingresa tu nombre completo">Nombre
+                                <span><i class="fa fa-info-circle"></i></span>
+                            </label>
+                            <input type="text" class="form-control" id="nombre">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="Email4" class="form-label text-primary"  data-bs-toggle="tooltip" title="Ingresa tu email">Email
+                                <span><i class="fa fa-info-circle"></i></span>
+                            </label>
+                            <input type="email" class="form-control" id="Email4">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label text-primary"  data-bs-toggle="tooltip" title="Ingresa un mensaje">Mensaje
+                                <span><i class="fa fa-info-circle"></i></span>
+                            </label>
+                            <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                        </div>
+                        <div  class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="mycheck">
+                            <label class="form-check-label" for="mycheck">
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal">Acepto los términos y condiciones</a>
+                            </label>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 col-12 text-primary ">
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <ul class="list-unstyled">
+                                <li class="mb-2"><i class="fa fa-phone pe-3"></i>+56999887766</li>
+                                <li class="mb-2"><i class="fa fa-envelope pe-3"></i> contacto@viajeschile.com</li>
+                                <li class="mb-2"><i class="fa fa-facebook pe-3"></i> ViajesChile</li>
+                                <li class="mb-2"><i class="fa fa-instagram pe-3"></i> viajes_chile</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+    <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content bg-secondary text-light">
+            <div class="modal-header">
+                <h5 class="modal-title" id="termsModalLabel">Términos y Condiciones</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Contenido de los términos y condiciones -->
+                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
+                excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui 
+                officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem 
+                rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est 
+                eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, 
+                omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et 
+                aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates 
+                repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a 
+                sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut
+                perferendis doloribus asperiores repellat.
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalWarning" tabindex="-1" aria-labelledby="modalWarningLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="modalWarningLabel">¡Atención!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-primary">
+                    <p>Debes aceptar los términos y condiciones antes de enviar el formulario.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modalSuccess" tabindex="-1" aria-labelledby="modalWarningLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-secondary">
+                <div class="modal-header">
+                    <h5 class="modal-title text-primary" id="modalSuccessLabel">¡Envio excitoso!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-primary">
+                    <p>Gracias por contactarte con nosotros.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
     <script src="./assets/js/main.js" type="module"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
