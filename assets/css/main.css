@@ -11971,6 +11971,34 @@ textarea.form-control-lg {
   padding: 0;
 }
 
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+h1, .h1, h2, .h2, h5, .h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+p, a, input, li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
+label, figcaption {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+
 .navbar {
   padding: 0 100px;
   transition: background-color 0.3s ease;
@@ -11995,12 +12023,25 @@ textarea.form-control-lg {
 header {
   height: 500px;
 }
+@media screen and (max-width: 768px) {
+  header {
+    height: 300px;
+  }
+}
 
 #mycarousel {
   height: 500px;
 }
 #mycarousel img {
   height: 500px;
+}
+@media screen and (max-width: 768px) {
+  #mycarousel {
+    height: 300px;
+  }
+  #mycarousel img {
+    height: 300px;
+  }
 }
 
 /*para la imagen de la seccion quienes somos*/
